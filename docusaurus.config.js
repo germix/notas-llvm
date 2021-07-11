@@ -5,13 +5,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: 'Notas LLVM',
   tagline: 'Notas LLVM',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://germix.github.io',
+  baseUrl: '/notas-llvm/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'germix', // Usually your GitHub org/user name.
+  projectName: 'notas-llvm', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'Notas LLVM',
@@ -58,9 +58,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
