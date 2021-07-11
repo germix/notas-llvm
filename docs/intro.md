@@ -1,4 +1,4 @@
-# Intro
+# Introducción
 
 Notas sobre la librería [LLVM](https://llvm.org/)
 

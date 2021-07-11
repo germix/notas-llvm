@@ -45,7 +45,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Germán Martínez, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Germán Martínez. Creado con Docusaurus.`,
     },
     prism: {
       theme: lightCodeTheme,
